@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Team1 Players"
+        android:id="@+id/T1"
+        android:layout_margin="5dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ETP1"
+        android:layout_margin="15dp"
+        android:layout_below="@id/T1"
+        android:hint="Enter Player 1"
+        android:text="kumar"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ETP2"
+        android:layout_below="@id/ETP1"
+        android:layout_margin="15dp"
+        android:hint="Enter Player 2"
+        android:text="lucifer"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Team2 Players"
+        android:id="@+id/T2"
+        android:layout_below="@id/ETP2"
+        android:layout_margin="5dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ETP3"
+        android:layout_below="@id/T2"
+        android:layout_margin="15dp"
+        android:hint="Enter Player 3"
+        android:text="avinash"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ETP4"
+        android:layout_below="@id/ETP3"
+        android:layout_margin="15dp"
+        android:hint="Enter Player 4"
+        android:text="sabuna"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Game"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/BSG"
+        android:layout_below="@id/RG"
+        android:layout_margin="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Serve"
+        android:id="@+id/T3"
+        android:layout_below="@id/ETP4"
+        android:layout_margin="5dp"
+        />
+
+    <RadioGroup
+        android:id ="@+id/RG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/T3"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/RB1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Team1" />
+
+        <RadioButton
+            android:id="@+id/RB2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Team2" />
+    </RadioGroup>
+</RelativeLayout>
