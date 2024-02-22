@@ -13,6 +13,8 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity android:name=".game_activity"></activity>
+        <activity android:name=".open_old_sessions"></activity>
+        <activity android:name=".players"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="true"
