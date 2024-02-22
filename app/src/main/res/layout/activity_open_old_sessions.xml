@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#E95704">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is open old session another activity"
+        android:textSize="30dp"
+        android:layout_margin="10px"
+        android:layout_centerVertical="true"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+</RelativeLayout>

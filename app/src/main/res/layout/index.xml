@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background_main">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Badminton Tracker"
+        android:textSize="40dp"
+        android:layout_centerVertical="true"
+        android:textAlignment="center"
+        android:id="@+id/TV"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <Button
+        android:text="Create New Session"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CNS"
+        android:layout_below="@+id/TV"/>
+    <Button
+        android:text="Old Sessions"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/OSb"
+        android:layout_below="@id/CNS"/>
+
+</RelativeLayout>
